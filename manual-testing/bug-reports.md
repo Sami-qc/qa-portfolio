@@ -10,7 +10,7 @@
 **Severity:** Medium  
 **Priority:** P2  
 **Reporter:** Sami  
-**Date:** (add today)
+**Date:** 2026-02-14
 
 ### Steps to Reproduce
 1. Open https://www.saucedemo.com

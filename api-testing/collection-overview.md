@@ -7,6 +7,10 @@
 **Tools:** Postman
 
 
+## Objective
+Validate core CRUD operations for Users and Products endpoints.
+
+
 ## Collection Structure
 - Auth / Token
 - Users

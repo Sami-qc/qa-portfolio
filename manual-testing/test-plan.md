@@ -14,7 +14,7 @@ Verify the main user flows of the web app and ensure critical functionality work
 ## Out of Scope
 - Performance testing
 - Security testing
-- Cross-browser matrix (for this sample)
+- Cross-browser matrix (untill now)
 
 ## Test Types
 - Smoke

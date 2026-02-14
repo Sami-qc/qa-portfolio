@@ -1,7 +1,5 @@
-# Manual Testing Documentation
-
-This section includes:
-- Test Plan
-- Test Cases
-- Bug Reports
-- Test scenarios
+## This section includes:
+- [Test Plan](./test-plan.md)
+- [Test Cases](./test-cases.md)
+- [Bug Reports](./bug-reports.md)
+- [Test Scenarios](./test-scenarios/)

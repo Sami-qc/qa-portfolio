@@ -17,8 +17,7 @@
 - Local: (base_url=...)
 - Staging: (base_url=...)
 - Production: (base_url=...)
-<img width="1105" height="999" alt="image" src="https://github.com/user-attachments/assets/ca97b468-6849-4bd7-918a-4be013b2c94d" />
-
+ 
 ## How to Run
 ### In Postman
 1. Import the collection

@@ -63,13 +63,54 @@ The goal is to validate API functionality, reliability, and error handling using
 
 ## 🔍 Validation Strategy
 
-The following validations are applied across all API tests:
+The following validation techniques are applied across all API test cases in the Fake Store API project:
 
-- Status code validation (e.g., 200, 400, 401, 404)
-- Response body structure validation
-- Data type validation (string, number, boolean)
-- Required fields validation
-- Response time validation (< 2 seconds)
+### ✔️ Status Code Validation
+
+* Verify correct HTTP status codes for each request (200, 201, 400, 401, 404)
+* Ensure error scenarios return appropriate status codes
+
+### ✔️ Response Structure Validation
+
+* Validate JSON response format
+* Ensure all required fields are present in responses (e.g. id, title, price, category)
+
+### ✔️ Data Type Validation
+
+* Verify correct data types for each field:
+
+  * id → number
+  * title → string
+  * price → number
+  * category → string
+
+### ✔️ Data Integrity Validation
+
+* Ensure returned data matches the request input
+* Validate product details consistency across endpoints
+
+### ✔️ Negative Testing Validation
+
+* Validate API behavior with:
+
+  * Invalid credentials
+  * Missing fields
+  * Invalid product IDs
+* Ensure proper error messages are returned
+
+### ✔️ Edge Case Validation
+
+* Test API with:
+
+  * Large input values
+  * Special characters
+  * Null values
+  * Boundary conditions
+
+### ✔️ Performance Validation
+
+* Verify API response time is within acceptable limits (less than 2 seconds)
+
 
 ---
 

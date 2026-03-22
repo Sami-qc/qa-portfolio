@@ -1,5 +1,9 @@
 #  Playwright Test Automation – SauceDemo
 
+
+![Playwright Tests](https://github.com/Sami-qc/qa-portfolio/actions/workflows/playwright.yml/badge.svg)
+
+
 An end-to-end test automation project built with **Playwright + Python**, targeting [SauceDemo](https://www.saucedemo.com) as a real-world e-commerce application.
 
 This project demonstrates my ability to design and implement a maintainable, scalable test framework using the **Page Object Model (POM)** pattern.

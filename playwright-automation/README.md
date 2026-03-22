@@ -23,7 +23,7 @@ This project demonstrates my ability to design and implement a maintainable, sca
 ## 📁 Project Structure
 
 ```
-Playwright Test V2/
+playwright-automation/
 ├── pages/                  # Page Object Model classes
 │   ├── login_page.py       # Login page interactions
 │   ├── cart_page.py        # Cart page interactions
@@ -41,12 +41,18 @@ Playwright Test V2/
 
 ##  Test Scenarios
 
-###  Login Tests (`test_login.py`)
+ ### 🔐 Login Tests (`test_login.py`)
 - Valid login with standard user credentials
-- *(More scenarios coming soon: invalid credentials, locked-out user)*
+- Invalid password shows error message
+- Locked out user shows locked out error
+- Empty username shows required field error
+- Empty password shows required field error
 
-###  Cart Tests (`test_cart.py`)
-- *(Cart test scenarios)*
+### 🛒 Cart Tests (`test_cart.py`)
+- Add item to cart → badge shows 1
+- Add 2 items → badge updates to 2
+- Remove item from cart → badge disappears
+- Navigate to cart → added item appears
 
 ---
 
@@ -54,8 +60,10 @@ Playwright Test V2/
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/YOUR_USERNAME/playwright-test-v2.git
-cd playwright-test-v2
+
+git clone https://github.com/Sami-qc/qa-portfolio.git
+cd qa-portfolio/playwright-automation
+
 ```
 
 **2. Install dependencies**

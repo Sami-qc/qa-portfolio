@@ -14,3 +14,4 @@ class LoginFlow:
         self.page.fill(self.login_page.username_input, username)
         self.page.fill(self.login_page.password_input, password)
         self.page.click(self.login_page.login_button)
+

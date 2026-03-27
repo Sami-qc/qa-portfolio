@@ -1,9 +1,6 @@
 #  Playwright Test Automation – SauceDemo
 
 
-![Playwright Tests](https://github.com/Sami-qc/qa-portfolio/actions/workflows/playwright.yml/badge.svg)
-
-
 An end-to-end test automation project built with **Playwright + Python**, targeting [SauceDemo](https://www.saucedemo.com) as a real-world e-commerce application.
 
 This project demonstrates my ability to design and implement a maintainable, scalable test framework using the **Page Object Model (POM)** pattern.
@@ -23,8 +20,8 @@ This project demonstrates my ability to design and implement a maintainable, sca
 ## 📁 Project Structure
 
 ```
-playwright-automation/
-├── pages/                  # Page Object Model classes
+Playwright Test V2/
+├── pageس/                  # Page Object Model classes
 │   ├── login_page.py       # Login page interactions
 │   ├── cart_page.py        # Cart page interactions
 │   └── inventory_page.py   # Inventory/products page interactions
@@ -41,18 +38,12 @@ playwright-automation/
 
 ##  Test Scenarios
 
- ### 🔐 Login Tests (`test_login.py`)
+###  Login Tests (`test_login.py`)
 - Valid login with standard user credentials
-- Invalid password shows error message
-- Locked out user shows locked out error
-- Empty username shows required field error
-- Empty password shows required field error
+- *(More scenarios coming soon: invalid credentials, locked-out user)*
 
-### 🛒 Cart Tests (`test_cart.py`)
-- Add item to cart → badge shows 1
-- Add 2 items → badge updates to 2
-- Remove item from cart → badge disappears
-- Navigate to cart → added item appears
+###  Cart Tests (`test_cart.py`)
+- *(Cart test scenarios)*
 
 ---
 
@@ -60,10 +51,8 @@ playwright-automation/
 
 **1. Clone the repo**
 ```bash
-
-git clone https://github.com/Sami-qc/qa-portfolio.git
-cd qa-portfolio/playwright-automation
-
+git clone https://github.com/YOUR_USERNAME/playwright-test-v2.git
+cd playwright-test-v2
 ```
 
 **2. Install dependencies**

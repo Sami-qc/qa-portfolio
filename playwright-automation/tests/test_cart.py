@@ -1,14 +1,16 @@
 from playwright.sync_api import Page, expect
-from pages.login_page import LoginPage
-from pages.inventory_page import InventoryPage
+
+from flows.login_flow import LoginFlow
 from pages.cart_page import CartPage
+from pages.inventory_page import InventoryPage
+from utils.test_data import STANDARD_USER, VALID_PASSWORD
 
 
 def login(page):
     """Helper: login before each cart test"""
-    login_page = LoginPage(page)
-    login_page.navigate()
-    login_page.login("standard_user", "secret_sauce")
+    flow = LoginFlow(page)
+    flow.navigate_to_login()
+    flow.login(STANDARD_USER, VALID_PASSWORD)
 
 
 def test_add_item_to_cart(page: Page):

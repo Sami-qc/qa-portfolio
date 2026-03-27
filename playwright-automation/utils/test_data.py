@@ -1,0 +1,6 @@
+STANDARD_USER = "standard_user"
+LOCKED_OUT_USER = "locked_out_user"
+VALID_PASSWORD = "secret_sauce"
+INVALID_PASSWORD = "wrong_password"
+EMPTY_VALUE = ""
+BASE_URL = "https://www.saucedemo.com/"

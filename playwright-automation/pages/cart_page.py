@@ -10,3 +10,6 @@ class CartPage:
 
     def remove_first_item(self):
         self.page.locator(self.remove_button).first.click()
+
+
+        

@@ -1,89 +1,62 @@
-#  Playwright Test Automation – SauceDemo
+# QA Portfolio – Sami Mustafa
 
+Hi! I'm Sami, a QA Engineer with hands-on experience in manual testing, API testing, and test automation.
 
-An end-to-end test automation project built with **Playwright + Python**, targeting [SauceDemo](https://www.saucedemo.com) as a real-world e-commerce application.
-
-This project demonstrates my ability to design and implement a maintainable, scalable test framework using the **Page Object Model (POM)** pattern.
-
----
-
-##  Tech Stack
-
-| Tool | Version |
-|---|---|
-| Python | 3.13 |
-| Playwright | 0.72 |
-| Pytest | 9.0 |
+This portfolio showcases real projects covering the full QA cycle: from writing test plans and bug reports, to API testing with Postman, to building end-to-end automation frameworks.
 
 ---
 
-## 📁 Project Structure
+## 📁 Portfolio Structure
+
+### 🗂️ `manual-testing/`
+Documentation-focused testing artifacts:
+- Test plan
+- Test cases
+- Bug reports
+
+### 🌐 `api-testing/`
+API testing with Postman targeting real-world endpoints:
+- Postman collection (`.json`)
+- Test reports
+
+### 🤖 `playwright-automation/`
+End-to-end automation framework built with **Playwright + Python**, targeting [SauceDemo](https://www.saucedemo.com):
+- Page Object Model (POM) architecture
+- Login & cart test scenarios
+- Pytest fixtures and CI-ready configuration
 
 ```
-Playwright Test V2/
-├── pageس/                  # Page Object Model classes
-│   ├── login_page.py       # Login page interactions
-│   ├── cart_page.py        # Cart page interactions
-│   └── inventory_page.py   # Inventory/products page interactions
-├── tests/                  # Test files
-│   ├── test_login.py       # Login test scenarios
-│   └── test_cart.py        # Cart test scenarios
-├── utils/                  # Shared utilities
+playwright-automation/
+├── pages/                  # Page Object Model classes
+│   ├── login_page.py
+│   ├── cart_page.py
+│   └── inventory_page.py
+├── tests/
+│   ├── test_login.py
+│   └── test_cart.py
+├── flows/                  # Multi-step user flows
+├── utils/
 │   └── helpers.py
-├── conftest.py             # Pytest fixtures & browser setup
-└── README.md
+├── conftest.py
+└── playwright.yml          # GitHub Actions CI workflow
 ```
 
 ---
 
-##  Test Scenarios
+## 🛠️ Tools & Skills
 
-###  Login Tests (`test_login.py`)
-- Valid login with standard user credentials
-- *(More scenarios coming soon: invalid credentials, locked-out user)*
-
-###  Cart Tests (`test_cart.py`)
-- *(Cart test scenarios)*
-
----
-
-##  How to Run
-
-**1. Clone the repo**
-```bash
-git clone https://github.com/YOUR_USERNAME/playwright-test-v2.git
-cd playwright-test-v2
-```
-
-**2. Install dependencies**
-```bash
-pip install pytest pytest-playwright
-playwright install
-```
-
-**3. Run all tests**
-```bash
-python -m pytest tests/ -s
-```
-
-**4. Run a specific test file**
-```bash
-python -m pytest tests/test_login.py -s
-```
+| Area | Tools |
+|---|---|
+| Automation | Playwright (Python), Pytest |
+| API Testing | Postman |
+| CI/CD | GitHub Actions |
+| Manual Testing | Test plans, bug reports, checklists |
+| Project Tracking | Jira / Trello basics |
 
 ---
 
-##  Key Concepts Applied
+## 📬 Contact
 
-- **Page Object Model (POM)** – separates test logic from UI interactions
-- **Pytest Fixtures** – reusable browser/page setup via `conftest.py`
-- **Assertions** – URL and element state validation with Playwright's `expect()`
-
----
-
-##  Author
-
-**Samy Mustafa**  
-Manual & Automation QA Tester  
- sami.mustafa.dev@gmail.com
- 
+- **GitHub:** [github.com/Sami-qc](https://github.com/Sami-qc)
+- **LinkedIn:** [linkedin.com/in/sami-mustafa-qa](https://www.linkedin.com/in/sami-mustafa-qa)
+- **Email:** sami.mustafa.dev@gmail.com

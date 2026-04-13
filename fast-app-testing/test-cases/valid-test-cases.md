@@ -32,8 +32,7 @@ Cancel button should be visible and enabled
 **Steps:**
 1. Click Cancel Order  
 **Expected Result:**  
-Confirmation modal should appear asking user to confirm
-
+A confirmation message should appear asking the user to confirm the cancellation.
 ---
 
 ### TC-004

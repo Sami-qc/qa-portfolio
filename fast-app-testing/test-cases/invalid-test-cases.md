@@ -33,8 +33,7 @@ The Cancel Order action should not be available to the user
 2. Click "Cancel Order"
 3. Close the confirmation popup or select cancel  
 **Expected Result:**  
-The order should remain active and no cancellation should be processed
-
+An error message should be displayed, and the cancellation should not be completed unless the server confirms it successfully.
 ---
 
 ### TC-NEG-004
@@ -117,4 +116,4 @@ The system should validate the latest order status and prevent cancellation if t
 **Steps:**
 1. Attempt to cancel an online-paid order in a non-eligible state  
 **Expected Result:**  
-No refund process should be initiated if cancellation is not successful
+ If the cancellation fails, no refund should be started.
